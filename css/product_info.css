@@ -1,0 +1,16 @@
+.product-item__img-wrapper {
+  width: 450px;
+  margin: auto;
+/*  height: 150px;*/
+  overflow: hidden;
+}
+.product-item__img-link{
+  display: block;
+  width: 100%;
+}
+.product-item__img {
+  width: 100%;
+}
+.product-item__img-viewed {
+  height: 70px;
+}

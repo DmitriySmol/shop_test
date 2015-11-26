@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "Elektra-Light-Pro";
+	src: url('Elektra-Light-Pro.otf');
+	src: url('Elektra-Light-Pro.otf?#iefix') format('embedded-opentype'),
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "Elektra-Medium-Pro.ttf";
+	src: url('Elektra-Medium-Pro.otf');
+	src: url('Elektra-Medium-Pro.otf?#iefix') format('embedded-opentype'),
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: "Elektra-Medium-Pro-Italic.ttf";
+	src: url('Elektra-Medium-Pro-Italic.otf');
+	src: url('Elektra-Medium-Pro-Italic.otf?#iefix') format('embedded-opentype'),
+	font-weight: normal;
+    font-style: normal;
+}

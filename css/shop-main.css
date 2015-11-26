@@ -1,0 +1,151 @@
+.wrapper {
+	font-family: "Elektra-Light-Pro";
+	height: 100%;	
+	width: 100%;
+	min-width: 1000px; 
+	background-color: white;
+}
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	background-image: url(../img/header-line2.png);
+	width: 100%;
+	z-index: 55;
+	opacity: 0.702;
+	height: 41px;
+	color: white;
+	min-width: 1000px;
+}
+.adress-center {
+	margin: 0 auto;
+	width: 1000px;
+	min-width: 700px;
+	height: 41px;
+}
+
+.adress-center:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.gradient-background {
+	background-image: url(../img/gradient-header.png);
+	height: 139px;
+	width: 100%;
+	color: white;
+	min-width: 1000px;
+}
+.social-top {
+	width: 375px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.social-top__ul {
+	margin: 0px;
+	padding: 0px;
+}
+.adress-location {
+	vertical-align: middle;
+	display: inline-block;
+	width: 420px;
+	font-size: 14px;
+}
+.adress-location__text {
+	margin-left: 5px;
+	display: inline-block;
+	font-size: 14px;
+}
+.phone-number {
+	width: 187px;
+	height: 26px;
+	vertical-align: middle;
+	display: inline-block;	
+}
+.phone-number__4-numbers {
+	font-size: 14px;
+	color: #16A4DE;
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+.phone-number__7-numbers {
+	display: inline-block;
+	font-size: 25px;
+	vertical-align: top;
+	line-height: 27px;
+	margin-left: 3px;
+}
+.social-top__li {
+	display: inline-block;
+	cursor: pointer;
+	height: 20px;
+	margin-right: 5px;
+}
+.social-top__icons-img {
+	vertical-align: top;
+	-webkit-box-shadow: 0px 0px 8px 2px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 8px 2px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 8px 2px rgba(50, 50, 50, 0.75);
+}
+.buy-info {
+	width: 1000px;
+	height: 98px;
+	margin: 0 auto;
+}
+.buy-info:before {
+	content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.buy-info__logo-big {
+	display: inline-block;
+  	vertical-align: middle;
+}
+.buy-info__form-search {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 55px;
+}
+.input-item-name {
+	padding: 10px;
+	border: 1px solid #DCE6F0;
+	width: 258px;
+	height: 33px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+.input-submit-search {
+	margin-left: -5px;
+	color: white;
+	padding: 7px 15px;
+	height: 33px;
+	border: none;
+	box-sizing: border-box;
+	background-color: #00B9FE;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+}
+.buy-info__link {
+	color: blue;
+}
+.buy-info__link:visited {
+	color: #613993;
+}
+.buy-info__links-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+.clearfix:before,
+.clearfix:after  {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
